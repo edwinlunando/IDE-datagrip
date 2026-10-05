@@ -36,5 +36,12 @@
       <jdbc-url>jdbc:postgresql://172.18.64.133:5432/postgres</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="psql-platform-ai" uuid="9b2f5460-fc2a-4817-b4fc-c039b3d865bb">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://172.30.66.185:5432/litellm</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
