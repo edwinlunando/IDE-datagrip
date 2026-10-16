@@ -1,0 +1,1 @@
+select count(*) from "LiteLLM_SpendLogs";
